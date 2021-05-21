@@ -1,0 +1,12 @@
+#接收数据并进行处理的最大线程数
+maxProcessThread=50
+
+#AMQ的地址
+#amq.brokeurl=tcp://52.81.54.31:61616
+amq.brokeurl=tcp://192.168.0.200:61616
+
+#位置的目标空间参考，如果使用wkid则dst.wkt=0，如果两者都有以wkid优先
+vehicle.wkid = 4326
+
+#位置的目标空间参考，如果使用wkt则dst.wkid=0，如果两者都有以wkid优先
+vehicle.wkt =PROJCS["BNAH",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Berghaus_Star"],PARAMETER["False_Easting",500000.0],PARAMETER["False_Northing",500000.0],PARAMETER["Central_Meridian",116.385],PARAMETER["Latitude_Of_Origin",39.461],PARAMETER["XY_Plane_Rotation",-7.0],UNIT["Meter",1.0]]
